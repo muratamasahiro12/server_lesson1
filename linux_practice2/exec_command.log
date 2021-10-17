@@ -1,0 +1,69 @@
+ 1  ls
+    2  cd root
+    3  ls
+    4  rm -rf server_lesson
+    5  ls
+    6  cd /root
+    7  mkdir server_lesson && cd server_lesson
+    8  yum update -y && yum -y install git
+    9  git version
+   10  git init
+   11  touch first.txt
+   12  ls
+   13  mkdir -p linux_practice1/public
+   14  ls
+   15  cd linux_practice1/
+   16  ls
+   17  cd public/
+   18  touch index.php
+   19  ls
+   20  cp index.php index_bk.php
+   21  ls
+   22  cd ../
+   23  cp -r public tmp
+   24  ls
+   25  ls
+   26  cd tmp
+   27  ls
+   28  rm index_bk.php 
+   29  ls
+   30  cd ../
+   31  cd ../
+   32  touch README.md
+   33  ls
+   34  ls
+   35  vi README.md 
+   36  vi README.md 
+   37  git add .
+   38  git status
+   39  git commit -m 'practice1'
+   40  git log
+   41  cd ../
+   42  ls
+   43  cd server_lesson/
+   44  mkdir -p linux_practice2/documents
+   45  ls
+   46  cd linux_practice2
+   47  ls
+   48  cd documents/
+   49  ls
+   50  touch gizumo{01..50}.md
+   51  ls
+   52  cd ../
+   53  ls
+   54  mkdir trash
+   55  ls
+   56  cd documents/
+   57  ls
+   58  cd ../
+   59  ls
+   60  mv documents/gizumo{20..40}.md trash
+   61  ls
+   62  cd trash
+   63  ls
+   64  cd ../
+   65  touch .gitignore
+   66  ls -a
+   67  vi .gitignore
+   68  history 300
+
